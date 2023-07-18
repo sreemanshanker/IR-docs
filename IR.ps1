@@ -223,6 +223,3 @@ Write-Host "***All outputs collected. Proceeding to zip files***"
 #Zip all files in directory
 Write-Host "***Zipping all files in C:\IR***"
 Compress-Archive -Path C:\IR* -DestinationPath C:\IR\
-
-Write-Host "***All operations completed. Please grab the compressed IR file and send to the SecOps Team. The directory may be deleted after sending the zip file***"
-Write-Host "***All operations completed. Please grab the compressed IR file and send to the SecOps Team. The directory may be deleted after sending the zip file***"
